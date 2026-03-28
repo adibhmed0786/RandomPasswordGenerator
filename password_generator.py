@@ -33,7 +33,7 @@ def main():
         try:
             length = int(input("Enter the desired password length (minimum 5): "))
             if length < 4:
-                print("Password length must be at least 4 characters.")
+                print("Password length must be at least 40 characters.")
                 continue
             break
         except ValueError:
