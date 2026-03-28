@@ -31,7 +31,7 @@ def main():
     # Get password length with validation
     while True:
         try:
-            length = int(input("Enter the desired password length (minimum 4): "))
+            length = int(input("Enter the desired password length (minimum 5): "))
             if length < 4:
                 print("Password length must be at least 4 characters.")
                 continue
